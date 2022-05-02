@@ -1,0 +1,211 @@
+/* Style the body */
+body {
+  
+  background-color: white;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 6px;
+  text-align: center;
+  background-color: green;
+  color: black;
+  font-size: 30px;
+background: 
+  /* On "top" */
+  repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    green 10px,
+    green 20px
+  ),
+  /* on "bottom" */
+  linear-gradient(
+    to bottom,
+    yellow,
+    green
+  );
+}
+ #logo {
+ 
+ height: 25%;
+ width: 15%;
+ position: relative;
+ right: 1000px;
+ }
+ 
+ 
+   h1 {
+        
+        margin: 50px auto;
+        text-align: center;
+        color: black;
+        font-size: 40pt;
+        padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+        position: relative;
+      }
+      h1:before {
+        content: "";
+        display: block;
+        width: 650px;
+        height: 5px;
+        background: black;
+        left: 50px;
+        top: 50%;
+        position: absolute;
+      }
+      h1:after {
+        content: "";
+        display: block;
+        width: 650px;
+        height: 5px;
+        background: black;
+        right: 50px;
+        top: 50%;
+        position: absolute;
+      }
+	  
+	  
+	  #knuckles {
+		  
+		  float: left;
+		  max-width: auto;
+		  height: 50%;
+	  }
+	  
+	  #luffy {
+		  
+	
+  margin: auto;
+  width: auto;
+  height:50%;
+  
+	  }
+	  
+	  #redBlob {
+		  
+		  float: right;
+		  max-width: auto;
+		  height: 50%;
+	  }
+	  
+	  * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+	  
+ 
+ .topnav {
+  overflow: hidden;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  position: relative;
+  left: 850px;
+  top: 225px;
+  
+}
+
+.topnav a:hover {
+  
+  color: yellow;
+}
+
+.topnav a.activeNav {
+  
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
